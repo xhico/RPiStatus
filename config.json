@@ -1,0 +1,8 @@
+{
+  "PING_COUNT": 4,
+  "PING_TIMEOUT": 5,
+  "RPIs": [
+    "rpi4",
+    "rpi3a"
+  ]
+}

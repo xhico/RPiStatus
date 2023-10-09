@@ -1,0 +1,12 @@
+[Unit]
+Description=RPiStatus Service
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/RPiStatus/
+ExecStart=/usr/bin/python3 /home/pi/RPiStatus/RPiStatus.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
