@@ -3,12 +3,13 @@
 
 import datetime
 import json
+import logging
 import os
 import socket
-import traceback
-import logging
 import subprocess
-from Misc import get911, sendEmail
+import traceback
+
+from Misc import sendEmail
 
 
 def is_host_reachable(host):
